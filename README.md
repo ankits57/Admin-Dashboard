@@ -1,8 +1,15 @@
 # ADMIN DASHBOARD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface for admins to see and delete users. The users will be provided via an API.
+Tech Stack Used
+1. React JS
+2. Tailwind CSS
 
-Currently, two official plugins are available:
+Hosted on Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hosted Website Link - https://admin-dashb.netlify.app/
+Github Repositry Link - https://github.com/ankits57/Admin-Dashboard
+
+![image](https://github.com/ankits57/Admin-Dashboard/assets/74282513/4d1cbaee-79ad-4c0a-b1b5-9c342dded6ae)
+![image](https://github.com/ankits57/Admin-Dashboard/assets/74282513/5436326e-d97e-475b-972c-2ab4f3fb3987)
+![image](https://github.com/ankits57/Admin-Dashboard/assets/74282513/41abf755-e098-44bc-8da2-e2fb79dd1ece)
