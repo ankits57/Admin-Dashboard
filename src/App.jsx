@@ -228,13 +228,13 @@ const App = () => {
                 <td className="lg:pl-14 lg:px-0 py-2 px-4">
                   {user.isEditing ? (
                     <>
-                      <button className='save bg-green-500 hover:bg-green-600 text-white mr-2 py-2 px-4 rounded focus:outline-none focus:shadow-outline-green' onClick={() => handleSaveRow(user.id)}>Save</button>
+                      <button className='save bg-green-500 hover:bg-green-600 text-white mr-2 py-2 px-5 rounded focus:outline-none focus:shadow-outline-green' onClick={() => handleSaveRow(user.id)}>Save</button>
                       <button className='delete bg-red-500 hover:bg-red-600 text-white mt-2 py-2 px-4 rounded focus:outline-none focus:shadow-outline-red' onClick={() => handleDeleteRow(user.id)}>Delete</button>
                     </>
                   ) : (
                     <>
-                      <button className='edit bg-blue-500 hover:bg-blue-600 text-white mr-2 py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue' onClick={() => handleEditRow(user.id)}>Edit</button>
-                      <button className='delete bg-red-500 hover:bg-red-600 text-white mt-2 py-2 px-4 rounded focus:outline-none focus:shadow-outline-red' onClick={() => handleDeleteRow(user.id)}>Delete</button>
+                      <button className='edit bg-blue-500 hover:bg-blue-600 text-white mr-2 py-2 px-6 rounded focus:outline-none focus:shadow-outline-blue' onClick={() => handleEditRow(user.id)}>Edit</button>
+                      <button className='delete bg-red-500 hover:bg-red-600 text-white mt-2 py-2 px-4  rounded focus:outline-none focus:shadow-outline-red' onClick={() => handleDeleteRow(user.id)}>Delete</button>
                     </>
                   )}
                 </td>
