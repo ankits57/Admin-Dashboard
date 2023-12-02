@@ -169,7 +169,7 @@ const App = () => {
       <div className="min-w-full bg-white border border-gray-300 rounded-lg overflow-hidden overflow-x-auto lg:overflow-y-scroll overflow-y-scroll lg:h-[60vh] h-[55vh]">
       <table className="min-w-full bg-white border border-gray-300 rounded-lg table-fixed">
         {/* Table header */}
-        <thead className="bg-gray-800 text-white lg:sticky lg:top-0">
+        <thead className="bg-gray-800 text-white lg:sticky lg:top-0 sticky top-0">
           <tr>
             <th className="lg:pl-0 lg:pt-2 lg:pb-2 lg:pr-10 p-2">
               <input
